@@ -186,3 +186,8 @@
   195  git remote set-url origin git@github.com:anandme/hello-world.git
   196  git remote -v
   197  git pull origin master
+
+$ git remote remove origin
+
+$ git remote add origin "https://github.com/anandme/hello-world.git"
+
