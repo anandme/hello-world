@@ -172,3 +172,17 @@
   172  hisory >> gitcommands.txt
   173  cat $history
   174  history > gitcommands.txt
+
+
+  186  ssh-keygen -t rsa -b 4096 -C "vinay.james1@gmail.com"
+  187  eval "$(ssh-agent -s)"
+  188  ssh-add ~/.ssh/id_rsa
+  189  cat ~/.ssh/id_rsa
+  190  clip < ~/.ssh/id_rsa.pub
+  191  git remote -v
+  192  git remote origin git@github.com:anandme/hello-world.git
+  193  git remote origin "git@github.com:anandme/hello-world.git"
+  194  git remote set-git@github.com:anandme/hello-world.git
+  195  git remote set-url origin git@github.com:anandme/hello-world.git
+  196  git remote -v
+  197  git pull origin master
