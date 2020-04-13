@@ -1,0 +1,174 @@
+    1  ls
+    2  pwd
+    3  git clone https://github.com/anandme/hello-world.git
+    4  ls
+    5  cd hello-world
+    6  ls
+    7  git pull origin master
+    8  git --version
+    9  git config
+   10  git --get
+   11  git config --list
+   12  git config user.name
+   13  git config user.name "vinay"
+   14  git config user.email "vinay.james1@gmail.com"
+   15  git config --list
+   16  git help config
+   17  pwd
+   18  git init
+   19  git status
+   20  git status
+   21  touch .ignore
+   22  git status
+   23  touch file1
+   24  git status
+   25  git add .ignore
+   26  git add file1
+   27  git add -A
+   28  git status
+   29  git reset
+   30  git status
+   31  git add .ignore
+   32  git add file1
+   33  git status
+   34  git status -s
+   35  git status
+   36  git add newfile.htm
+   37  git status
+   38  git status -s
+   39  git commit -m "Added ignore file, added file1, modified newfile.htm"
+   40  git status
+   41  git log
+   42  git push origin master
+   43  git log
+   44  git status
+   45  git add -A
+   46  git status
+   47  git commit origin master
+   48  git commit bbc.txt
+   49  git status
+   50  git pull origin master
+   51  git push origin master
+   52  git remote -v
+   53  pwd
+   54  mv .ignore .gitignore
+   55  git status
+   56  git add .gitignore
+   57  git status
+   58  git commit .gitignore
+   59  git status
+   60  git pull origin master
+   61  git push origin master
+   62  ls
+   63  touch abc.txt 123.txt
+   64  git status
+   65  git add -A
+   66  git commit help
+   67  git help commit
+   68  git status
+   69  touch xyz.txt
+   70  git status
+   71  git commit -a -m "Adding all files"
+   72  git status
+   73  git pull origin master
+   74  git push origin master
+   75  git diff
+   76  git commit -a
+   77  git status
+   78  git branch hello-world-beta
+   79  git branch
+   80  git checkout hello-world-beta
+   81  git status
+   82  git add xyz.txt
+   83  git commit -a -m "Added xyz to the branch"
+   84  git branch -u origin hello-world-beta
+   85  git push -u origin hello-world-beta
+   86  git branch -a
+   87  git checkout master
+   88  git status
+   89  ls
+   90  git checkout hello-world-beta
+   91  ls
+   92  git checkout master
+   93  git push origin master
+   94  git status
+   95  ls
+   96  git branch -a
+   97  git branch --merge
+   98  git branch --merged
+   99  git merge hello-world-beta
+  100  git branch --merge
+  101  git push origin master
+  102  git branch alpha
+  103  git branch
+  104  git checkout alpha
+  105  git status
+  106  touch file
+  107  git add file
+  108  git commit file
+  109  git status
+  110  git log
+  111  git push -u origin alpha
+  112  git branch -a
+  113  git checkout hello-world-beta
+  114  git merge alpha
+  115  git branch --merged
+  116  git push origin hello-world-beta
+  117  git checkout master
+  118  git pull origin
+  119  git merge hello-world-beta
+  120  git branch --merged
+  121  git push origin master
+  122  git branch -d alpha
+  123  git branch -a
+  124  git push origin --delete alpha
+  125  git reflog
+  126  git log
+  127  git add abc.txt
+  128  git status
+  129  git add bbc.txt
+  130  git commit bbc.tx -m "Modified bbc.txt"
+  131  git commit bbc.txt -m "Modified bbc.txt"
+  132  git commit
+  133  git log
+  134  git reset 33e69a1
+  135  git status
+  136  git log
+  137  git reset --hard 33e69a1
+  138  git log
+  139  git reset 
+  140  git reset 
+  141  git reset 22f1f1
+  142  git status
+  143  git log
+  144  git commit
+  145  git add bbc.txt
+  146  git commit
+  147  git status
+  148  git log
+  149  git revert 22f1f1
+  150  git push origin master
+  151  git status
+  152  git status
+  153  git add bbc.txt
+  154  git commit -m "modified bbc.txt"
+  155  git push origin master
+  156  git pull origin master
+  157  git commit -a -m "modified bbc.txt"
+  158  git pull origin master
+  159  git diff
+  160  git push origin master
+  161  git status
+  162  git pull origin master
+  163  git status
+  164  git commit -a -m "modified bbc.txt"
+  165  git pull origin master
+  166  git log
+  167  git reflog
+  168  git commit -a -m "modified bbc.txt"
+  169  git pull origin master
+  170  git push origin master
+  171  history
+  172  hisory >> gitcommands.txt
+  173  cat $history
+  174  history > gitcommands.txt
